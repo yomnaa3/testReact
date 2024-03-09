@@ -1,0 +1,46 @@
+.certificatecontainer {
+    height: 360px;
+    width: 1500px;
+    background-image: url("../../../Assets/homeCertificate.png");
+    background-size: cover !important;
+    background-attachment: fixed;
+    position: relative;
+    border-radius: 20px;
+}
+.certificateh1 {
+    font-size: 30px;
+}
+.certificatep {
+    font-size: 40px;
+    line-height: 40px;
+    color: aliceblue;
+}
+.certificatetxt {
+    position: absolute;
+    color: aliceblue;
+}
+
+.certificateimg {
+    border: 20px solid cadetblue;
+    border-radius: 50%;
+    margin-left: 300px;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+}
+
+@keyframes change {
+    0% {
+        margin-bottom: 10px;
+    }
+
+    50% {
+        margin-top: 15px;
+    }
+
+    100% {
+        margin-bottom: 20px;
+    }
+
+}

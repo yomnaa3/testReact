@@ -1,0 +1,57 @@
+.aboutimg {
+    width: 650px;
+    height: 650px;
+}
+
+.aboutbadge {
+    margin-top: 80px;
+    width: 150px;
+    height: 30px;
+    background-color: #1B3F6B !important;
+    line-height: 20px;
+    border-radius: 15px;
+}
+
+.h1badge {
+    font-weight: bold;
+}
+
+.pbadge {
+    font-size: 18px;
+    color: gray;
+}
+
+.coursespan {
+    color: var(--firstColor);
+}
+
+.abouticon {
+    font-size: 25px;
+    margin: 10px 0px;
+    color: var(--firstColor);
+}
+
+.abouticontxt {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.aboutbuttonicon:hover {
+    scale: 1.5;
+}
+@media(max-width:576px) {
+
+    .aboutimg{
+   display:none;
+    }
+    .abouttxt{
+       width: 100% !important;
+    }
+    .abouticon{
+        margin-top: 20px ;
+        font-size: 20px !important;
+      
+    }
+   
+
+}
